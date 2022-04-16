@@ -65,12 +65,21 @@ body {
   font-weight: 400;
   background-color: hsl(213, 19%, 25%);
   border-radius: 50%;
-  padding: 15px;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#thankYou {
-  visibility: hidden;
-  position: absolute;
+.rating li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  text-decoration: none;
 }
 
 #submitRating {
@@ -83,11 +92,26 @@ body {
   font-weight: 400;
 }
 
+#submitRating:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/*-----------Card thank you--------------------*/
+
+#thankYou {
+  visibility: hidden;
+  position: absolute;
+}
+
 .img_thank_you {
   display: flex;
   justify-content: center;
   width: 30%;
 }
+
+/*-----------Footer--------------------*/
 
 .attribution {
   font-size: 11px;
