@@ -78,6 +78,11 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
+.selected {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
 a {
   text-decoration: none;
 }
