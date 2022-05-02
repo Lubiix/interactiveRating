@@ -28,8 +28,8 @@ for (var i = 0; i < li.length; i++) {
   li[i].addEventListener("click", function () {
     // console.log(this.textContent);
     rating = this.textContent;
-    // this.style.backgroundColor = "hsl(217, 12%, 63%)";
-    // this.style.color = "hsl(0, 0%, 100%)";
+    this.style.backgroundColor = "hsl(217, 12%, 63%)";
+    this.style.color = "hsl(0, 0%, 100%)";
     this.classList.add("selected");
 
     // if (this.classList == "selected") {
